@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+    width: 320px;
+}
+
+#gameboard div {
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#restart {
+    padding: 10px 20px;
+    font-size: 1em;
+}
